@@ -12,10 +12,10 @@ workspace:
     - packages/gamepads_windows
 
 environment:
-  sdk: '>=3.9.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dev_dependencies:
-  melos: ^7.1.0
+  melos: ^6.3.2
 
 melos:
   command:
@@ -24,7 +24,7 @@ melos:
 
     bootstrap:
       environment:
-        sdk: ">=3.9.0 <4.0.0"
+        sdk: ">=3.0.0 <4.0.0"
         flutter: ">=3.35.0"
       dev_dependencies:
         flame_lint: ^1.4.1
